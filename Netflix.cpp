@@ -19,7 +19,7 @@ void welcomeScreen()
 	cout << " |_| \\_|______|  |_|  |_|    |______|_____||_/ \\_\\\n";
 	cout << "\n";
 	titleColor(7);
-	cout << "                  BY REED HASTINGS\n";
+	cout << "                BY REED HASTINGS\n";
 	cout << "===========================================================\n\n";
 
     cout << " Welcome To Netflix!\n\n";
@@ -47,7 +47,7 @@ void menu()
         system("cls");
 
         cout << "========================================================\n";
-        cout << "           NETFLIX POPULAR MOVIE EXPLORER\n";
+        cout << "           NETFLIX MOVIE EXPLORER\n";
         cout << "========================================================\n\n";
 
         cout << "  1. Trending Now\n";
@@ -74,7 +74,7 @@ void menu()
                 break;
 
             case 4:
-                cout << "\nThank you for using Netflix Popular Movie Explorer!\n";
+                cout << "\nThank you for using Netflix Movie Explorer!\n";
                 break;
 
             default:
